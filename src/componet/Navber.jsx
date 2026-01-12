@@ -1,9 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router';
-import Button from '../button/Button';
+import Button from '../bottn/Button';
+ 
+    
 
 const Navber = () => {
-    const links = <>
+       const links = <>
+    
       <li><NavLink className={ ({isActive}) =>isActive? " bg-gray-300  border-b-4 border-[#176AE5] font-bold text-sm mx-2" :" font-bold text-sm mx-2" }  to="/">Home</NavLink></li>
       <li><NavLink className={ ({isActive}) =>isActive? " bg-gray-300  border-b-4 border-[#176AE5] font-bold text-sm mx-2" :" font-bold text-sm mx-2" }  to="/my-bookings">My-Bookings</NavLink></li>
       <li><NavLink className={ ({isActive}) =>isActive? " bg-gray-300  border-b-4 border-[#176AE5] font-bold text-sm mx-2" :" font-bold text-sm mx-2" }  to="/blogs">Blogs</NavLink></li>
@@ -11,8 +14,9 @@ const Navber = () => {
  
      
     </>
+       
     return (
-          <div className="navbar flex justify-around min-h-5 mx-auto  w-9/12 wx-auto   p-4 items-center bg-gray-100 rounded-sm py-2">
+          <div className="navbar flex justify-around min-h-5 mx-auto  w-11/12 wx-auto   p-4 items-center bg-gray-100 rounded-sm py-2">
   <div className="navbar-start rounded-sm py-2 flex ">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +41,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-     <Button text="Emergency"></Button>
+  <Button text="Emergency"></Button>
   </div>
 </div>
     );

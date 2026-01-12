@@ -14,7 +14,8 @@ import Contact from "../pages/Contact";
         errorElement:<Error></Error>,
         children:[
             {
-                index:true,
+                path:"/" ,
+                loader: ()=>fetch('/data.json'),
                 Component:Home
             },
              {

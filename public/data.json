@@ -1,0 +1,122 @@
+ [
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/nMP5mQZ4/confident-doctor-clinic-23-2151983463.avif",
+    "name": "Dr. Ayesha Rahman",
+    "education": "MBBS, FCPS (Medicine)",
+    "speciality": "Cardiology",
+    "experience": "10+ Years",
+    "registrationNumber": "BMDC-1001" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/ccszbPBd/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-cro.jpg",
+    "name": "Dr. Mahmud Hasan",
+    "education": "MBBS, MS (Ortho)",
+    "speciality": "Orthopedics",
+    "experience": "8 Years",
+    "registrationNumber": "BMDC-1002",
+    "aviable" : "Available"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/67kWM3tc/beautiful-young-female-doctor-looking-camera-office-1301-7807.avif",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, FCPS (Gynecology)",
+    "speciality": "Gynecology",
+    "experience": "7 Years",
+    "registrationNumber": "BMDC-1003" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/9HRhQLD4/photo-1622253692010-333f2da6031d.avif",
+    "name": "Dr. Tanvir Ahmed",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurology",
+    "experience": "12 Years",
+    "registrationNumber": "BMDC-1004" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/v4SzJTxV/premium-photo-1658506671316-0b293df7c72b.avif",
+    "name": "Dr. Farhana Islam",
+    "education": "MBBS, DCH",
+    "speciality": "Pediatrics",
+    "experience": "6 Years",
+    "registrationNumber": "BMDC-1005" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/27y0xKTP/premium-photo-1661606181884-0fc9e6d398d0.avif",
+    "name": "Dr. Rakib Hossain",
+    "education": "MBBS, FCPS (Dermatology)",
+    "speciality": "Dermatology",
+    "experience": "9 Years",
+    "registrationNumber": "BMDC-1006" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/B2xccf7m/premium-photo-1661700176531-c8bd4603030f.avif",
+    "name": "Dr. Sumi Akter",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatry",
+    "experience": "5 Years",
+    "registrationNumber": "BMDC-1007" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/FL1hCSTt/premium-photo-1681967035389-84aabd80cb1e.avif",
+    "name": "Dr. Arif Chowdhury",
+    "education": "MBBS, MS (Urology)",
+    "speciality": "Urology",
+    "experience": "11 Years",
+    "registrationNumber": "BMDC-1008" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/6Rh9xQrW/premium-photo-1661580574627-9211124e5c3f.avif",
+    "name": "Dr. Laila Khan",
+    "education": "MBBS, FCPS (ENT)",
+    "speciality": "ENT",
+    "experience": "7 Years",
+    "registrationNumber": "BMDC-1009" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/C39FY7H9/photo-1712215544003-af10130f8eb3.avif",
+    "name": "Dr. Imran Siddique",
+    "education": "MBBS, MD (Chest)",
+    "speciality": "Pulmonology",
+    "experience": "10 Years",
+    "registrationNumber": "BMDC-1010" ,
+    "aviable" : "Available"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/hJXvkqJT/premium-photo-1664474647299-7ef90322be6c.avif",
+    "name": "Dr. Sharmin Sultana",
+    "education": "MBBS, FCPS (Ophthalmology)",
+    "speciality": "Eye Specialist",
+    "experience": "8 Years",
+    "registrationNumber": "BMDC-1011" ,
+     "aviable" : "Available"
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/mCDHcVbf/doctor-sample.png",
+    "name": "Dr. Kamrul Hasan",
+    "education": "MBBS, MS (General Surgery)",
+    "speciality": "General Surgery",
+    "experience": "13 Years",
+    "registrationNumber": "BMDC-1012" ,
+     "aviable" : "Available"
+  }
+]
