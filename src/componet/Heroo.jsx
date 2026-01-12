@@ -13,9 +13,9 @@ const Heroo = () => {
          <Button text="Search"></Button>
                 
            </form>
-           <div className="flex gap-5">
-            <img  className='w-1/2' src="https://i.ibb.co.com/RT3YNhR6/banner-img-1.png" alt="" />
-            <img className='w-1/2 rounded-3xl' src="https://i.ibb.co.com/yBKPswLD/premium-photo-1681967018806-2bd5c0cb96bf.avif" alt="" />
+           <div className=" flex flex-col md:flex-row gap-5">
+            <img  className='w-full md:w-1/2' src="https://i.ibb.co.com/RT3YNhR6/banner-img-1.png" alt="" />
+            <img className='w-full md:w-1/2 rounded-xl md:rounded-3xl ' src="https://i.ibb.co.com/yBKPswLD/premium-photo-1681967018806-2bd5c0cb96bf.avif" alt="" />
            </div>
         </div>
     );  
