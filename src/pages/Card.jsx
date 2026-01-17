@@ -4,10 +4,10 @@ import React from 'react';
 const Card = ({data}) => {
   console.log(data)
     return (
-       <div className="card bg-base-100 w-full p-10 shadow-sm">
+       <div className="card bg-base-100 w-full p-8 shadow-sm">
   <figure>
     <img
-    className=' w-full object-center h-100'
+    className=' w-full object-center h-80'
       src={data.image}
       alt="Shoes" />
   </figure>
