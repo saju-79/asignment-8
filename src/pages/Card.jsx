@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 
 const Card = ({data}) => {
-  console.log(data)
+   
     return (
        <div className="card bg-base-100 w-full p-8 shadow-sm">
   <figure>
@@ -22,7 +23,7 @@ const Card = ({data}) => {
           <p className='border-b border-[#0F0F0F50]'></p>
          <h3 className='text-xl  font-medium text-[#0F0F0F70] '> Reg No: {data.registrationNumber}</h3>
     <div className=" w-full">
-       <button className=' px-6 py-3 w-full text-[#176AE5] font-bold text-2xl border border-[#176AE5] rounded-4xl hover:text-[#ffffff] hover:bg-[#176AE5]'>View Details</button>
+       <Link to={`/ditels/${data.id}`}><button   className=' px-6 py-3 w-full text-[#176AE5] font-bold text-2xl border border-[#176AE5] rounded-4xl hover:text-[#ffffff] hover:bg-[#176AE5]'>View Details</button></Link>
     </div>
   </div>
 </div>

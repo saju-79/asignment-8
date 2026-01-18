@@ -5,6 +5,7 @@ import Error from "../componet/Error";
 import MyBooks from "../pages/MyBooks";
 import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
+import Ditels from "../pages/Ditels";
  
 
  export const router = createBrowserRouter([
@@ -29,6 +30,11 @@ import Contact from "../pages/Contact";
              {
                 path:"/contact",
                 Component:Contact
+             },
+             {
+               path:"ditels/:id",
+               loader: ()=>fetch('/data.json'),
+               Component:Ditels,
              }
 
              

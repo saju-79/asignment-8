@@ -1,10 +1,11 @@
 import React from 'react';
 import Heroo from '../componet/Heroo';
-import Cards from './Cards';
+ 
 import { useLoaderData } from 'react-router';
 import Card from './Card';
 import Button from '../bottn/Button';
 import Baner from '../componet/Baner';
+ 
  
 
  
@@ -36,6 +37,7 @@ const Home = () => {
                 <Baner></Baner>
              </div>
              </section>
+             
         </div>
     );
 };
