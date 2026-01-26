@@ -5,13 +5,13 @@ import Footer from '../componet/Footer';
 
 const Root = () => {
     return (
-       <div className=" bg-gray-300">
+        <div className=" bg-gray-300">
             <Navber></Navber>
-         <div className=' w-11/12 mx-auto   '>
-            <Outlet></Outlet>
-        </div>
+            <div className=' w-11/12 mx-auto   '>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
-       </div>
+        </div>
     );
 };
 

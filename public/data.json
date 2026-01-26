@@ -1,4 +1,4 @@
- [
+[
   {
     "id": 1,
     "image": "https://i.ibb.co.com/nMP5mQZ4/confident-doctor-clinic-23-2151983463.avif",
@@ -6,8 +6,10 @@
     "education": "MBBS, FCPS (Medicine)",
     "speciality": "Cardiology",
     "experience": "10+ Years",
-    "registrationNumber": "BMDC-1001" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1001",
+    "aviable": "Available",
+    "price": "400",
+    "Availability": "3 Days"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "speciality": "Orthopedics",
     "experience": "8 Years",
     "registrationNumber": "BMDC-1002",
-    "aviable" : "Available"
+    "aviable": "Available",
+    "price": "300",
+    "Availability": "5 Days"
   },
   {
     "id": 3,
@@ -26,8 +30,10 @@
     "education": "MBBS, FCPS (Gynecology)",
     "speciality": "Gynecology",
     "experience": "7 Years",
-    "registrationNumber": "BMDC-1003" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1003",
+    "aviable": "Available",
+    "price": "350",
+    "Availability": "4 Days"
   },
   {
     "id": 4,
@@ -36,8 +42,10 @@
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurology",
     "experience": "12 Years",
-    "registrationNumber": "BMDC-1004" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1004",
+    "aviable": "Available",
+    "price": "450",
+    "Availability": "5 Days"
   },
   {
     "id": 5,
@@ -46,8 +54,10 @@
     "education": "MBBS, DCH",
     "speciality": "Pediatrics",
     "experience": "6 Years",
-    "registrationNumber": "BMDC-1005" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1005",
+    "aviable": "Available",
+    "price": "500",
+    "Availability": "4 Days"
   },
   {
     "id": 6,
@@ -56,8 +66,10 @@
     "education": "MBBS, FCPS (Dermatology)",
     "speciality": "Dermatology",
     "experience": "9 Years",
-    "registrationNumber": "BMDC-1006" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1006",
+    "aviable": "Available",
+    "price": "550",
+    "Availability": "3 Days"
   },
   {
     "id": 7,
@@ -66,8 +78,10 @@
     "education": "MBBS, MD (Psychiatry)",
     "speciality": "Psychiatry",
     "experience": "5 Years",
-    "registrationNumber": "BMDC-1007" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1007",
+    "aviable": "Available",
+    "price": "600",
+    "Availability": "7 Days"
   },
   {
     "id": 8,
@@ -76,8 +90,10 @@
     "education": "MBBS, MS (Urology)",
     "speciality": "Urology",
     "experience": "11 Years",
-    "registrationNumber": "BMDC-1008" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1008",
+    "aviable": "Available",
+    "price": "650",
+    "Availability": "5 Days"
   },
   {
     "id": 9,
@@ -86,8 +102,10 @@
     "education": "MBBS, FCPS (ENT)",
     "speciality": "ENT",
     "experience": "7 Years",
-    "registrationNumber": "BMDC-1009" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1009",
+    "aviable": "Available",
+    "price": "300",
+    "Availability": "4 Days"
   },
   {
     "id": 10,
@@ -96,8 +114,10 @@
     "education": "MBBS, MD (Chest)",
     "speciality": "Pulmonology",
     "experience": "10 Years",
-    "registrationNumber": "BMDC-1010" ,
-    "aviable" : "Available"
+    "registrationNumber": "BMDC-1010",
+    "aviable": "Available",
+    "price": "400",
+    "Availability": "1 Days"
   },
   {
     "id": 11,
@@ -106,8 +126,10 @@
     "education": "MBBS, FCPS (Ophthalmology)",
     "speciality": "Eye Specialist",
     "experience": "8 Years",
-    "registrationNumber": "BMDC-1011" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1011",
+    "aviable": "Available",
+    "price": "2000",
+    "Availability": "5 Days"
   },
   {
     "id": 12,
@@ -116,7 +138,9 @@
     "education": "MBBS, MS (General Surgery)",
     "speciality": "General Surgery",
     "experience": "13 Years",
-    "registrationNumber": "BMDC-1012" ,
-     "aviable" : "Available"
+    "registrationNumber": "BMDC-1012",
+    "aviable": "Available",
+    "price": "330",
+    "Availability": "2 Days"
   }
 ]
