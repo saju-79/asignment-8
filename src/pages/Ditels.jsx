@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiAlarmOn } from 'react-icons/ci';
 import { Link, useLoaderData, useParams } from 'react-router';
 
 const Ditels = () => {
@@ -16,7 +17,8 @@ const Ditels = () => {
         consultationFee,
         image,
         education,
-        registrationNumber
+        registrationNumber,
+        
     } = singleDoctor
     return (
         <div>
@@ -64,9 +66,11 @@ const Ditels = () => {
                     <p className=' font-semibold text-md  mr-6 btn rounded-4xl  px-6 py-2 border border-[#09982F20] bg-[#09982F10] text-[#09982F]'> Doctor Available Today </p>
                 </div>
                 {/* comment section    */}
-                <div className=""></div>
+                <div className=""> 
+                    <p className='flex gap-2 items-center px-4 py-2 bg-[#FFA00010] rounded-sm text-[#FFA000] font-medium text-md '> <CiAlarmOn size={22} /> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
+                </div>
                 {/* button */}
-                <Link>
+                <Link to={`/DoctorChart/${id} `}>
                     <button className="relative w-full font-bold  text-xl text-center justify-center my-6 inline-flex items-center px-12 py-3 overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50">
                         <span className="absolute left-0 block text-center items-center justify-center w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                         <span className="absolute text-center  right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">

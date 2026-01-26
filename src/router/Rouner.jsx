@@ -6,6 +6,7 @@ import MyBooks from "../pages/MyBooks";
 import Blogs from "../pages/Blogs";
 import Contact from "../pages/Contact";
 import Ditels from "../pages/Ditels";
+import DoctorChart from "../pages/DoctorChart";
 
 
 export const router = createBrowserRouter([
@@ -30,6 +31,11 @@ export const router = createBrowserRouter([
          {
             path: "/contact",
             Component: Contact
+         },
+         {
+            path: "/DoctorChart/:id",
+            loader: () => fetch('/data.json'),
+            Component: DoctorChart
          },
          {
             path: "ditels/:id",
